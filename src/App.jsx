@@ -22,8 +22,8 @@ function App() {
       {/* Hero Section */}
       <section id='home' className="relative h-screen">
         <div className="absolute inset-0">
-        <video
-      src="https://www.w3schools.com/html/mov_bbb.mp4" // URL del video de ejemplo
+        <img
+      src="src/assets/QC.gif"
       autoPlay
       loop
       muted
@@ -48,7 +48,7 @@ function App() {
           <div className="aspect-w-16 aspect-h-9">
             <iframe
               className="w-full h-[600px]"
-              src="https://www.youtube.com/embed/lCh8G8bbYpI?vq=hd1080&si=O3T9VRa9DVDZLkCYdQw4w9WgXcQ"
+              src="https://player.vimeo.com/video/1018564630?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
               title="Time Lapse"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
